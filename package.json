@@ -3,6 +3,7 @@
   "displayName": "SpaceApp Snippets",
   "description": "Code snippets for SpaceApp",
   "version": "0.0.1",
+  "publisher": "EPFN",
   "repository": {
     "type": "git",
     "url": "https://github.com/epfn/spaceapp-snippets"
