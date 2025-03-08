@@ -1,41 +1,41 @@
 {
-	"Sass Mixin Desktop": {
+	"SCSS Mixin Desktop": {
 		"prefix": "smd",
 		"body": [
 			"@include desktop {",
 			"\t$0",
 			"}"
 		],
-		"description": "Sass mixin @include desktop"
+		"description": "SCSS Mixin Desktop"
 	},
-	"Sass Mixin Laptop": {
+	"SCSS Mixin Laptop": {
 		"prefix": "sml",
 		"body": [
 			"@include laptop {",
 			"\t$0",
 			"}"
 		],
-		"description": "Sass mixin @include laptop"
+		"description": "SCSS Mixin Laptop"
 	},
-	"Sass Mixin Tablet": {
+	"SCSS Mixin Tablet": {
 		"prefix": "smt",
 		"body": [
 			"@include tablet {",
 			"\t$0",
 			"}"
 		],
-		"description": "Sass mixin @include tablet"
+		"description": "SCSS Mixin Tablet"
 	},
-	"Sass Mixin Phone": {
+	"SCSS Mixin Phone": {
 		"prefix": "smp",
 		"body": [
 			"@include phone {",
 			"\t$0",
 			"}"
 		],
-		"description": "Sass mixin @include phone"
+		"description": "SCSS Mixin Phone"
 	},
-	"Sass Mixin Section": {
+	"SCSS Mixin Section": {
 		"prefix": "sms",
 		"body": [
 			"@include section;",
@@ -45,6 +45,6 @@
 			"\t$0",
 			"}"
 		],
-		"description": "Sass mixin @include section"
+		"description": "SCSS Mixin Section"
 	}
 }

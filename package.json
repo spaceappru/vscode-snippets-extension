@@ -2,7 +2,7 @@
   "name": "spaceapp-snippets",
   "displayName": "SpaceApp Snippets",
   "description": "Code snippets for SpaceApp",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "spaceapp",
   "icon": "images/logo.jpg",
   "repository": {
