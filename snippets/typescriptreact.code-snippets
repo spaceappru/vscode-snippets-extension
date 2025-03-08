@@ -1,6 +1,6 @@
 {
-  "React FC Template": {
-    "prefix": "rfct",
+  "React Template FC ": {
+    "prefix": "rtfc",
     "body": [
       "import type { FC } from \"react\";",
       "",
@@ -10,7 +10,7 @@
       "",
       "/**",
       "* $0",
-      "**/",
+      "*/",
       "export const ${TM_FILENAME_BASE/(^|\\-)([a-z])/${2:/upcase}/g}: FC<${TM_FILENAME_BASE/(^|\\-)([a-z])/${2:/upcase}/g}Props> = ({}) => {",
       "  return (",
       "",
@@ -18,12 +18,12 @@
       "};",
       ""
     ],
-    "description": "React FC Template"
+    "description": "React Template FC"
   },
 
   "React import SCSS module": {
     "prefix": "rism",
-    "body": ["import style from \"./${TM_FILENAME_BASE}.module.scss;\""],
+    "body": ["import styles from \"./${TM_FILENAME_BASE}.module.scss;\""],
     "description": "React import SCSS module"
   }
 }
