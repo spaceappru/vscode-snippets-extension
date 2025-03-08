@@ -3,10 +3,10 @@
   "displayName": "SpaceApp Snippets",
   "description": "Code snippets for SpaceApp",
   "version": "0.0.1",
-  "publisher": "EPFN",
+  "publisher": "spaceapp",
   "repository": {
     "type": "git",
-    "url": "https://github.com/epfn/spaceapp-snippets"
+    "url": "https://github.com/spaceappru/vscode-snippets-extention"
   },
   "engines": {
     "vscode": "^1.98.0"
@@ -18,7 +18,7 @@
     "snippets": [
       {
         "language": "scss",
-        "path": "./snippets/snippets-scss.code-snippets"
+        "path": "./snippets/scss.code-snippets"
       }
     ]
   }
