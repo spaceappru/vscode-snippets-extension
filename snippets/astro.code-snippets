@@ -1,0 +1,19 @@
+{
+    "Astro Template Component": {
+        "prefix": "atc",
+        "body": [
+            "---",
+            "interface Props {\n",
+            "}\n",
+            "const {} = Astro.props;",
+            "---\n",
+            "$0",
+            "\n<style is:global lang=\"scss\">",
+            "\t.${TM_FILENAME_BASE/(^[A-Z][a-z]*|[a-z])([A-Z])?/${1:/downcase}${2:+-}${2:/downcase}/g} {",
+            "\t\t",
+            "\t}",
+            "</style>"
+        ],
+        "description": "Astro Template Component"
+    },
+}

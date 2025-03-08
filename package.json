@@ -2,7 +2,7 @@
   "name": "spaceapp-snippets",
   "displayName": "SpaceApp Snippets",
   "description": "Code snippets for SpaceApp",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "spaceapp",
   "icon": "images/logo.jpg",
   "repository": {
@@ -18,12 +18,16 @@
   "contributes": {
     "snippets": [
       {
-        "language": "typescriptreact",
-        "path": "./snippets/typescriptreact.code-snippets"
+        "language": "astro",
+        "path": "./snippets/astro.code-snippets"
       },
       {
         "language": "scss",
         "path": "./snippets/scss.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/typescriptreact.code-snippets"
       }
     ]
   }
