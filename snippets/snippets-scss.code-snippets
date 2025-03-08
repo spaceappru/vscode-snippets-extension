@@ -1,0 +1,50 @@
+{
+	"Sass Mixin Desktop": {
+		"prefix": "smd",
+		"body": [
+			"@include desktop {",
+			"\t$0",
+			"}"
+		],
+		"description": "Sass mixin @include desktop"
+	},
+	"Sass Mixin Laptop": {
+		"prefix": "sml",
+		"body": [
+			"@include laptop {",
+			"\t$0",
+			"}"
+		],
+		"description": "Sass mixin @include laptop"
+	},
+	"Sass Mixin Tablet": {
+		"prefix": "smt",
+		"body": [
+			"@include tablet {",
+			"\t$0",
+			"}"
+		],
+		"description": "Sass mixin @include tablet"
+	},
+	"Sass Mixin Phone": {
+		"prefix": "smp",
+		"body": [
+			"@include phone {",
+			"\t$0",
+			"}"
+		],
+		"description": "Sass mixin @include phone"
+	},
+	"Sass Mixin Section": {
+		"prefix": "sms",
+		"body": [
+			"@include section;",
+			"",
+			"&__container {",
+			"\tgrid-area: center;",
+			"\t$0",
+			"}"
+		],
+		"description": "Sass mixin @include section"
+	}
+}
