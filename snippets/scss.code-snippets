@@ -1,39 +1,93 @@
 {
-	"SCSS Mixin Desktop": {
+	"SCSS Mixin Widescreen Desktop-First": {
+		"prefix": "smw",
+		"body": [
+			"@include widescreen {",
+			"\t$0",
+			"}"
+		],
+		"description": "SCSS Mixin Widescreen Desktop-First"
+	},
+	"SCSS Mixin Desktop Desktop-First": {
 		"prefix": "smd",
 		"body": [
 			"@include desktop {",
 			"\t$0",
 			"}"
 		],
-		"description": "SCSS Mixin Desktop"
+		"description": "SCSS Mixin Desktop Desktop-First"
 	},
-	"SCSS Mixin Laptop": {
+	"SCSS Mixin Laptop Desktop-First": {
 		"prefix": "sml",
 		"body": [
 			"@include laptop {",
 			"\t$0",
 			"}"
 		],
-		"description": "SCSS Mixin Laptop"
+		"description": "SCSS Mixin Laptop Desktop-First"
 	},
-	"SCSS Mixin Tablet": {
+	"SCSS Mixin Tablet Desktop-First": {
 		"prefix": "smt",
 		"body": [
 			"@include tablet {",
 			"\t$0",
 			"}"
 		],
-		"description": "SCSS Mixin Tablet"
+		"description": "SCSS Mixin Tablet Desktop-First"
 	},
-	"SCSS Mixin Phone": {
+	"SCSS Mixin Phone Desktop-First": {
 		"prefix": "smp",
 		"body": [
 			"@include phone {",
 			"\t$0",
 			"}"
 		],
-		"description": "SCSS Mixin Phone"
+		"description": "SCSS Mixin Phone Desktop-First"
+	},
+	"SCSS Mixin Widescreen Mobile-First": {
+		"prefix": "smwm",
+		"body": [
+			"@include widescreen-min {",
+			"\t$0",
+			"}"
+		],
+		"description": "SCSS Mixin Widescreen Mobile-First"
+	},
+	"SCSS Mixin Desktop Mobile-First": {
+		"prefix": "smdm",
+		"body": [
+			"@include desktop-min {",
+			"\t$0",
+			"}"
+		],
+		"description": "SCSS Mixin Desktop Mobile-First"
+	},
+	"SCSS Mixin Laptop Mobile-First": {
+		"prefix": "smlm",
+		"body": [
+			"@include laptop-min {",
+			"\t$0",
+			"}"
+		],
+		"description": "SCSS Mixin Laptop Mobile-First"
+	},
+	"SCSS Mixin Tablet Mobile-First": {
+		"prefix": "smtm",
+		"body": [
+			"@include tablet-min {",
+			"\t$0",
+			"}"
+		],
+		"description": "SCSS Mixin Tablet Mobile-First"
+	},
+	"SCSS Mixin Phone Mobile-First": {
+		"prefix": "smpm",
+		"body": [
+			"@include phone-min {",
+			"\t$0",
+			"}"
+		],
+		"description": "SCSS Mixin Phone Mobile-First"
 	},
 	"SCSS Mixin Section": {
 		"prefix": "sms",
