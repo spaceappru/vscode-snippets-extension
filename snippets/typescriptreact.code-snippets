@@ -11,7 +11,7 @@
       "/**",
       "* $0",
       "*/",
-      "export const ${TM_FILENAME_BASE/(^|\\-)([a-z])/${2:/upcase}/g}: FC<${TM_FILENAME_BASE/(^|\\-)([a-z])/${2:/upcase}/g}Props> = ({}) => {",
+      "export const ${TM_FILENAME_BASE/(^|\\-)([a-z])/${2:/upcase}/g}: FC<${TM_FILENAME_BASE/(^|\\-)([a-z])/${2:/upcase}/g}Props> = () => {",
       "  return (",
       "",
       "  )",
