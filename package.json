@@ -16,6 +16,16 @@
     "Snippets"
   ],
   "main": "./out/extension.js",
+  "activationEvents": [
+    "onCommand:spaceapp.astroComponent",
+    "onCommand:spaceapp.astroSlice",
+    "onCommand:spaceapp.astroSliceLib",
+    "onCommand:spaceapp.reactComponent",
+    "onCommand:spaceapp.reactComponentScss",
+    "onCommand:spaceapp.reactSlice",
+    "onCommand:spaceapp.reactSliceScss",
+    "onCommand:spaceapp.astroPage"
+  ],
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
@@ -23,7 +33,7 @@
   },
   "devDependencies": {
     "@types/node": "^24.10.13",
-    "@types/vscode": "^1.100.0",
+    "@types/vscode": "^1.60.0",
     "tslint": "^6.1.3",
     "typescript": "^5.9.3"
   },
