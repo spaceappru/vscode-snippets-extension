@@ -2,7 +2,7 @@
   "name": "spaceapp-snippets",
   "displayName": "SpaceApp",
   "description": "Code snippets and templates for SpaceApp",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "publisher": "spaceapp",
   "icon": "images/logo.jpg",
   "repository": {
@@ -38,6 +38,21 @@
     "typescript": "^5.9.3"
   },
   "contributes": {
+    "configuration": {
+      "title": "SpaceApp",
+      "properties": {
+        "spaceapp-snippets.showReact": {
+          "type": "boolean",
+          "default": true,
+          "description": "Показывать пункты меню для React"
+        },
+        "spaceapp-snippets.showAstro": {
+          "type": "boolean",
+          "default": true,
+          "description": "Показывать пункты меню для Astro"
+        }
+      }
+    },
     "commands": [
       {
         "command": "spaceapp.astroComponent",
@@ -89,35 +104,43 @@
       "spaceapp.create": [
         {
           "command": "spaceapp.reactComponent",
-          "group": "react"
+          "group": "react",
+          "when": "config.spaceapp-snippets.showReact"
         },
         {
           "command": "spaceapp.reactComponentScss",
-          "group": "react"
+          "group": "react",
+          "when": "config.spaceapp-snippets.showReact"
         },
         {
           "command": "spaceapp.reactSlice",
-          "group": "react"
+          "group": "react",
+          "when": "config.spaceapp-snippets.showReact"
         },
         {
           "command": "spaceapp.reactSliceScss",
-          "group": "react"
+          "group": "react",
+          "when": "config.spaceapp-snippets.showReact"
         },
         {
           "command": "spaceapp.astroComponent",
-          "group": "astro"
+          "group": "astro",
+          "when": "config.spaceapp-snippets.showAstro"
         },
         {
           "command": "spaceapp.astroSlice",
-          "group": "astro"
+          "group": "astro",
+          "when": "config.spaceapp-snippets.showAstro"
         },
         {
           "command": "spaceapp.astroSliceLib",
-          "group": "astro"
+          "group": "astro",
+          "when": "config.spaceapp-snippets.showAstro"
         },
         {
           "command": "spaceapp.astroPage",
-          "group": "astro"
+          "group": "astro",
+          "when": "config.spaceapp-snippets.showAstro"
         }
       ]
     },

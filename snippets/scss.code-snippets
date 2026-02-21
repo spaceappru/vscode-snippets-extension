@@ -1,104 +1,82 @@
 {
-	"SCSS Mixin Widescreen Desktop-First": {
-		"prefix": "smw",
-		"body": [
-			"@include widescreen {",
-			"\t$0",
-			"}"
-		],
-		"description": "SCSS Mixin Widescreen Desktop-First"
-	},
-	"SCSS Mixin Desktop Desktop-First": {
-		"prefix": "smd",
-		"body": [
-			"@include desktop {",
-			"\t$0",
-			"}"
-		],
-		"description": "SCSS Mixin Desktop Desktop-First"
-	},
-	"SCSS Mixin Laptop Desktop-First": {
-		"prefix": "sml",
-		"body": [
-			"@include laptop {",
-			"\t$0",
-			"}"
-		],
-		"description": "SCSS Mixin Laptop Desktop-First"
-	},
-	"SCSS Mixin Tablet Desktop-First": {
-		"prefix": "smt",
-		"body": [
-			"@include tablet {",
-			"\t$0",
-			"}"
-		],
-		"description": "SCSS Mixin Tablet Desktop-First"
-	},
-	"SCSS Mixin Phone Desktop-First": {
-		"prefix": "smp",
-		"body": [
-			"@include phone {",
-			"\t$0",
-			"}"
-		],
-		"description": "SCSS Mixin Phone Desktop-First"
-	},
-	"SCSS Mixin Widescreen Mobile-First": {
-		"prefix": "smwm",
-		"body": [
-			"@include widescreen-min {",
-			"\t$0",
-			"}"
-		],
-		"description": "SCSS Mixin Widescreen Mobile-First"
-	},
-	"SCSS Mixin Desktop Mobile-First": {
-		"prefix": "smdm",
-		"body": [
-			"@include desktop-min {",
-			"\t$0",
-			"}"
-		],
-		"description": "SCSS Mixin Desktop Mobile-First"
-	},
-	"SCSS Mixin Laptop Mobile-First": {
-		"prefix": "smlm",
-		"body": [
-			"@include laptop-min {",
-			"\t$0",
-			"}"
-		],
-		"description": "SCSS Mixin Laptop Mobile-First"
-	},
-	"SCSS Mixin Tablet Mobile-First": {
-		"prefix": "smtm",
-		"body": [
-			"@include tablet-min {",
-			"\t$0",
-			"}"
-		],
-		"description": "SCSS Mixin Tablet Mobile-First"
-	},
-	"SCSS Mixin Phone Mobile-First": {
-		"prefix": "smpm",
-		"body": [
-			"@include phone-min {",
-			"\t$0",
-			"}"
-		],
-		"description": "SCSS Mixin Phone Mobile-First"
-	},
-	"SCSS Mixin Section": {
-		"prefix": "sms",
-		"body": [
-			"@include section;",
-			"",
-			"&__container {",
-			"\tgrid-area: center;",
-			"\t$0",
-			"}"
-		],
-		"description": "SCSS Mixin Section"
-	}
+  "SCSS Mixin Widescreen Desktop-First": {
+    "prefix": "smw",
+    "body": ["@include widescreen {", "\t$0", "}"],
+    "description": "SCSS Mixin Widescreen Desktop-First",
+  },
+  "SCSS Mixin Desktop Desktop-First": {
+    "prefix": "smd",
+    "body": ["@include desktop {", "\t$0", "}"],
+    "description": "SCSS Mixin Desktop Desktop-First",
+  },
+  "SCSS Mixin Laptop Desktop-First": {
+    "prefix": "sml",
+    "body": ["@include laptop {", "\t$0", "}"],
+    "description": "SCSS Mixin Laptop Desktop-First",
+  },
+  "SCSS Mixin Tablet Desktop-First": {
+    "prefix": "smt",
+    "body": ["@include tablet {", "\t$0", "}"],
+    "description": "SCSS Mixin Tablet Desktop-First",
+  },
+  "SCSS Mixin Phone Desktop-First": {
+    "prefix": "smp",
+    "body": ["@include phone {", "\t$0", "}"],
+    "description": "SCSS Mixin Phone Desktop-First",
+  },
+  "SCSS Mixin Widescreen Mobile-First": {
+    "prefix": "smwm",
+    "body": ["@include widescreen-min {", "\t$0", "}"],
+    "description": "SCSS Mixin Widescreen Mobile-First",
+  },
+  "SCSS Mixin Desktop Mobile-First": {
+    "prefix": "smdm",
+    "body": ["@include desktop-min {", "\t$0", "}"],
+    "description": "SCSS Mixin Desktop Mobile-First",
+  },
+  "SCSS Mixin Laptop Mobile-First": {
+    "prefix": "smlm",
+    "body": ["@include laptop-min {", "\t$0", "}"],
+    "description": "SCSS Mixin Laptop Mobile-First",
+  },
+  "SCSS Mixin Tablet Mobile-First": {
+    "prefix": "smtm",
+    "body": ["@include tablet-min {", "\t$0", "}"],
+    "description": "SCSS Mixin Tablet Mobile-First",
+  },
+  "SCSS Mixin Phone Mobile-First": {
+    "prefix": "smpm",
+    "body": ["@include phone-min {", "\t$0", "}"],
+    "description": "SCSS Mixin Phone Mobile-First",
+  },
+  "SCSS Mixin Section": {
+    "prefix": "sms",
+    "body": [
+      "@include section;",
+      "",
+      "&__container {",
+      "\tgrid-area: center;",
+      "\t$0",
+      "}",
+    ],
+    "description": "SCSS Mixin Section",
+  },
+  "Responsive Grid Template Columns": {
+    "prefix": "rgtc",
+    "body": [
+      "display: grid;",
+      "grid-template-columns: repeat(1, minmax(0, 1fr));",
+      "grid-auto-rows: minmax(250px, auto);",
+      "gap: 16px;",
+      "",
+      "@include phone-min {",
+      "\tgrid-template-columns: repeat(2, minmax(0, 1fr));",
+      "}",
+      "",
+      "@include laptop-min {",
+      "\tgrid-template-columns: repeat(4, minmax(0, 1fr));",
+      "}",
+    ],
+    "description": "Responsive Grid Template Columns",
+  },
 }

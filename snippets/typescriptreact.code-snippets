@@ -16,15 +16,13 @@
       "",
       "  )",
       "};",
-      ""
+      "",
     ],
-    "description": "React Template FC"
+    "description": "React Template FC",
   },
   "React import SCSS module": {
     "prefix": "rism",
-    "body": [
-      "import styles from \"./${TM_FILENAME_BASE}.module.scss\";"
-    ],
-    "description": "React import SCSS module"
-  }
+    "body": ["import styles from \"./${TM_FILENAME_BASE}.module.scss\";"],
+    "description": "React import SCSS module",
+  },
 }

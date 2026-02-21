@@ -16,7 +16,7 @@ export const astroPageTemplate: TemplateDefinition = {
 import Layout from "@/app/layout.astro";
 ---
 
-<Layout title="${folderName}" scripts={["${folderName}"]}>
+<Layout title="${folderName}" script="${folderName}">
     ${folderName}
 </Layout>
 
