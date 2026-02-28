@@ -18,9 +18,7 @@ export const astroSliceLibTemplate: TemplateDefinition = {
     );
     const indexPath = vscode.Uri.joinPath(rootPath, "index.ts");
 
-    const indexContent = `export { default as ${pascalName} } from "./ui/${folderName}.astro";
-export { ${camelName} } from "./lib/${folderName}.ts";
-`;
+    const indexContent = `export { default as ${pascalName} } from "./ui/${folderName}.astro";`;
 
     const componentContent = `---
 interface Props {
@@ -40,11 +38,7 @@ const {} = Astro.props;
 </style>
 `;
 
-    const libFilePath = vscode.Uri.joinPath(
-      rootPath,
-      "lib",
-      `${folderName}.ts`,
-    );
+    const libFilePath = vscode.Uri.joinPath(rootPath, "lib", `index.ts`);
 
     const libContent = `export function ${camelName}() {
 
